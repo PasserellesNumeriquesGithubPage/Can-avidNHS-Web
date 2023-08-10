@@ -1,0 +1,77 @@
+.container {
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 86%;
+}
+
+table thead {
+    width: 50px;
+    height: 5px;
+}
+
+table tbody {
+    width: 100%;
+    padding: 0px;
+}
+
+#create_user {
+    margin-left: 90%;
+    background-color: green;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.table-x1 {
+    width: 100%;
+}
+
+table td {
+    padding: 1px;
+}
+
+.example {
+    margin-left: 40%;
+
+}
+
+.viewuser {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+}
+
+.viewuser>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+}
+
+.span_view_user {
+    font-size: medium;
+}
+
+.value {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#view-user-picture {
+    border-radius: 10%;
+    margin-left: 50%;
+    width: 100px;
+}
+
+#VIEWUser {
+    height: 110%;
+}
+
+.viewUSER {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal-width columns */
+    gap: 10px;
+    /* Gap between the columns */
+}

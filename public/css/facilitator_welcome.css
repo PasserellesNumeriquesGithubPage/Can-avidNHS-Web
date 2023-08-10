@@ -1,0 +1,21 @@
+.topnav .dropdown {
+    padding: auto;
+    display: fixed;   
+}
+.topnav .dropdown .navigation{
+    margin: 10px;
+}
+.topnav .dropdown .navigation:hover{
+    color:green;
+    text-decoration: none;
+}
+.topnav .dropdown #name{
+    color: #176B87;
+}
+.topnav .dropdown #name:hover{
+    text-decoration: none;
+    font-style: oblique;
+}
+.navigation{
+    color: black;
+}
