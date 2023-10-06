@@ -21,14 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
             const userData = JSON.parse(button.getAttribute("data-user"));
             editUserIdElement.textContent = userData.id;
             editUserEmailElement.textContent = userData.user.email;
-            editUserNameElement.textContent = userData.user.name;
+            editUserNameElement.textContent = userData.name;
             editUserAgeElement.textContent = userData.age;
             editUserGenderElement.textContent = userData.gender;
             editUserPositionElement.textContent = userData.position;
             editUserDepartmentElement.textContent = userData.department;
             editUserRoleElement.textContent = userData.user.role;
             editUserPhoneNumberElement.textContent = userData.phone_number;
-            console.log(userData.images)
             viewUserPictureElement.src = "/storage/" + userData.images;
         });
     });

@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Profile extends Model
 {
     use HasFactory;
-    protected $fillable = [ 
+    protected $fillable = [
+        'name',
         'age',
         'gender',
         'position',
@@ -21,5 +22,15 @@ class Profile extends Model
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    public function event()
+    {
+        return $this->hasMany(Event::class);
+    }
+    
+    public function activity()
+    {
+        return $this->hasMany(Activity::class);
     }
 }

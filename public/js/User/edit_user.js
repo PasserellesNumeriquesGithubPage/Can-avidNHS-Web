@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const userData = JSON.parse(button.getAttribute("data-user"));
             editUserIdElement.value = userData.id;
             editUserEmailElement.value = userData.user.email;
-            editUserNameElement.value = userData.user.name;
+            editUserNameElement.value = userData.name;
             editUserAgeElement.value = userData.age;
             if (userData.gender === "Male") {
                 editUserGenderMaleElement.checked = true;
